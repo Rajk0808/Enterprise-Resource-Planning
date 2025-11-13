@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - ERP Upload{% endblock %}
+
+{% block content %}
+    <h1 style="text-align:center; color:var(--accent); margin-bottom:25px;">Upload Your ERP File</h1>
+
+    <form method="post" enctype="multipart/form-data" action="{% url 'upload_file' %}" style="text-align:center;">
+        {% csrf_token %}
+        <div style="margin-bottom:20px;">
+            <label for="title">File Title:</label>
+            <input type="text" id="title" name="title" placeholder="Enter file title" required>
+        </div>
+        <div style="margin-bottom:20px;">
+            <label for="file">Choose File:</label>
+            <input type="file" id="file" name="file" required>
+        </div>
+        <button type="submit">🚀 Upload File</button>
+    </form>
+
+    <div style="margin-top:30px; text-align:center; color:#8b949e;">
+        <p><strong>Tip:</strong> Ensure the file format matches the ERP data structure.</p>
+    </div>
+{% endblock %}

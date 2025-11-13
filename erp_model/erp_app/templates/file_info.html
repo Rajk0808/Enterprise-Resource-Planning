@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block title %}File Analysis{% endblock %}
+
+{% block content %}
+<div class="analysis-container">
+    <h2>📁 Uploaded File Information</h2>
+
+    {% if file_info %}
+    <div class="file-card">
+        <p><strong>File Name:</strong> {{ file_info.name }}</p>
+        <p><strong>File Size:</strong> {{ file_info.size|filesizeformat }}</p>
+        <p><strong>File Type:</strong> {{ file_info.type }}</p>
+    </div>
+
+    <div class="actions">
+        <button id="analyzeBtn">🔍 Analyze File</button>
+    </div>
+    {% else %}
+    <p>No file data available. Please upload a file first.</p>
+    {% endif %}
+</div>
+
+<style>
+.analysis-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #111827;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 255, 170, 0.15);
+    color: #e5e7eb;
+}
+
+.analysis-container h2 {
+    color: #10b981;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.file-card {
+    background: #1f2937;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.1);
+    line-height: 1.7;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#analyzeBtn {
+    background: linear-gradient(90deg, #10b981, #059669);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#analyzeBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
+}
+</style>
+
+<script>
+document.getElementById("analyzeBtn")?.addEventListener("click", () => {
+    // Optional: fancy animation or notification
+    console.log("🧠 Redirecting to analysis view...");
+
+    // Redirect to Django view
+    window.location.href = "{% url 'analysis' %}";
+});
+</script>
+{% endblock %}

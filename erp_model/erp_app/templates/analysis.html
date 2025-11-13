@@ -1,0 +1,170 @@
+{% extends 'base.html' %}
+{% block title %}File Analysis{% endblock %}
+
+{% block content %}
+<div class="analysis-container">
+    <h2>📊 Basic File Analysis</h2>
+    <p class="subtitle">Here’s an overview of your uploaded file.</p>
+
+    {% if file_name %}
+    <div class="file-details">
+        <p><strong>📄 File Name:</strong> {{ file_name }}</p>
+        <p><strong>🧮 Rows:</strong> {{ rows }}</p>
+        <p><strong>📊 Numeric Columns:</strong> {{ numeric_columns|join:", " }}</p>
+        <p><strong>📊 Categorical Columns:</strong> {{ categorical_columns|join:", " }}</p>
+        <p><strong>📊 DateTime Columns:</strong> {{ datetime_columns|join:", " }}</p>
+    </div>
+
+    <div class="summary-section">
+        <h3>📈 Data Summary</h3>
+        <div class="table-container">
+            {{ summary|safe }}
+        </div>
+    </div>
+
+    <div class="action-section">
+        <a href="{% url 'interactive_analysis' %}" class="back-btn">Perform Analysis</a>
+    </div>
+
+    {% else %}
+    <p>No file uploaded yet. Please <a href="{% url 'upload_file' %}" class="upload-link">upload a file</a> first.</p>
+    {% endif %}
+</div>
+
+<style>
+.analysis-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #111827;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 255, 170, 0.15);
+    color: #e5e7eb;
+    animation: fadeIn 0.8s ease;
+}
+
+.analysis-container h2 {
+    color: #10b981;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #9ca3af;
+    margin-bottom: 30px;
+}
+
+/* 💬 Message Styles */
+.message-container {
+    margin-bottom: 20px;
+}
+.alert {
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    animation: fadeIn 0.5s ease-in;
+}
+.alert-error {
+    background-color: #dc2626;
+    color: white;
+}
+.alert-success {
+    background-color: #16a34a;
+    color: white;
+}
+.alert-warning {
+    background-color: #f59e0b;
+    color: #111827;
+}
+.alert-info {
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.file-details {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.15);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.summary-section h3 {
+    color: #10b981;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.table-container {
+    overflow-x: auto;
+    background: #1f2937;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table th, .table td {
+    border: 1px solid #374151;
+    padding: 8px 10px;
+}
+
+.table th {
+    background: #10b981;
+    color: #111827;
+    font-weight: bold;
+}
+
+.table-dark {
+    color: #e5e7eb;
+}
+
+.table-striped tr:nth-child(even) {
+    background: #1e293b;
+}
+
+.action-section {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.back-btn {
+    background: linear-gradient(90deg, #10b981, #059669);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+}
+
+.upload-link {
+    color: #10b981;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.upload-link:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+{% endblock %}

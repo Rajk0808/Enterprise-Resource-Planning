@@ -1,0 +1,957 @@
+INFO 2025-11-06 15:39:57,728 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:40:21,383 views Home page accessed by user: AnonymousUser
+INFO 2025-11-06 15:40:21,396 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-06 15:40:26,559 views User 'AnonymousUser' uploaded file: Kidney-Disease-Classification-Deep-Learning-Project-main.zip
+ERROR 2025-11-06 15:40:26,597 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py", line 23, in upload_file
+    with open(f"uploads/{uploaded_file.name}", "wb+") as destination:
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads/Kidney-Disease-Classification-Deep-Learning-Project-main.zip'
+ERROR 2025-11-06 15:40:26,600 basehttp "POST /upload/ HTTP/1.1" 500 71626
+INFO 2025-11-06 15:45:34,345 views Analysis page accessed by user: AnonymousUser
+INFO 2025-11-06 15:45:34,347 basehttp "GET /analysis/ HTTP/1.1" 200 5321
+INFO 2025-11-06 15:47:16,789 basehttp "GET /upload/ HTTP/1.1" 200 5549
+INFO 2025-11-06 15:47:27,835 views User 'AnonymousUser' uploaded file: inputImage.jpg
+ERROR 2025-11-06 15:47:27,884 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py", line 23, in upload_file
+    with open(f"uploads/{uploaded_file.name}", "wb+") as destination:
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads/inputImage.jpg'
+ERROR 2025-11-06 15:47:27,886 basehttp "POST /upload/ HTTP/1.1" 500 71362
+INFO 2025-11-06 22:36:01,299 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 22:36:03,452 views Home page accessed by user: AnonymousUser
+INFO 2025-11-06 22:36:03,501 basehttp "GET / HTTP/1.1" 200 5549
+WARNING 2025-11-06 22:36:04,883 log Not Found: /favicon.ico
+WARNING 2025-11-06 22:36:04,883 basehttp "GET /favicon.ico HTTP/1.1" 404 3233
+INFO 2025-11-06 22:36:23,725 views Home page accessed by user: AnonymousUser
+INFO 2025-11-06 22:36:23,727 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-06 22:36:25,831 views Analysis page accessed by user: AnonymousUser
+INFO 2025-11-06 22:36:25,835 basehttp "GET /analysis/ HTTP/1.1" 200 5321
+INFO 2025-11-06 22:36:28,008 views Contact page opened by user: AnonymousUser
+INFO 2025-11-06 22:36:28,011 basehttp "GET /contact/ HTTP/1.1" 200 225
+INFO 2025-11-06 22:36:32,856 views Home page accessed by user: AnonymousUser
+INFO 2025-11-06 22:36:32,860 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-08 21:06:36,120 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:06:37,964 views Home page accessed by user: AnonymousUser
+INFO 2025-11-08 21:06:38,010 basehttp "GET / HTTP/1.1" 200 5549
+WARNING 2025-11-08 21:06:40,964 log Not Found: /favicon.ico
+WARNING 2025-11-08 21:06:40,964 basehttp "GET /favicon.ico HTTP/1.1" 404 3233
+INFO 2025-11-08 21:06:56,557 views Home page accessed by user: AnonymousUser
+INFO 2025-11-08 21:06:56,561 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-08 21:13:01,590 views User 'AnonymousUser' uploaded file: NotebookLM Mind Map.png
+ERROR 2025-11-08 21:13:01,646 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py", line 23, in upload_file
+    with open(f"uploads/{uploaded_file.name}", "wb+") as destination:
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads/NotebookLM Mind Map.png'
+ERROR 2025-11-08 21:13:01,651 basehttp "POST /upload/ HTTP/1.1" 500 71722
+INFO 2025-11-08 21:16:00,309 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:16:01,696 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:16:03,182 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:16:04,100 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:16:10,634 views User 'AnonymousUser' uploaded file: NotebookLM Mind Map.png
+INFO 2025-11-08 21:16:10,638 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-08 21:16:10,644 views Analysis page accessed by user: AnonymousUser
+INFO 2025-11-08 21:16:10,662 basehttp "GET /analysis/ HTTP/1.1" 200 5321
+INFO 2025-11-08 21:27:38,029 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:27:39,151 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:27:40,759 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:27:41,862 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:28:32,207 views Home page accessed by user: AnonymousUser
+INFO 2025-11-08 21:28:32,235 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-08 21:28:38,884 views User 'AnonymousUser' uploaded file: NotebookLM Mind Map.png
+INFO 2025-11-08 21:28:38,886 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-08 21:28:38,936 basehttp "GET /analysis/ HTTP/1.1" 200 5779
+INFO 2025-11-08 21:28:49,749 views Home page accessed by user: AnonymousUser
+INFO 2025-11-08 21:28:49,751 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-08 21:29:14,002 views User 'AnonymousUser' uploaded file: pycharm-2025.2.4.exe
+INFO 2025-11-08 21:29:14,002 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-08 21:29:14,136 basehttp "GET /analysis/ HTTP/1.1" 200 5779
+INFO 2025-11-08 21:29:42,280 basehttp "GET /analysis/ HTTP/1.1" 200 5779
+INFO 2025-11-08 21:29:45,786 basehttp "GET /analysis/ HTTP/1.1" 200 5779
+INFO 2025-11-08 21:30:42,362 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:30:43,399 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:30:49,092 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:30:50,169 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:31:21,690 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:31:22,687 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:31:31,464 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:31:32,483 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:31:41,844 views Home page accessed by user: AnonymousUser
+INFO 2025-11-08 21:31:41,864 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-08 21:31:48,199 views User 'AnonymousUser' uploaded file: movie-recommender-system-tmdb-dataset-main.zip
+INFO 2025-11-08 21:31:48,201 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-08 21:31:48,281 basehttp "GET /analysis/ HTTP/1.1" 200 5779
+INFO 2025-11-08 21:33:22,310 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:33:23,450 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:33:24,919 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:33:25,990 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:33:30,637 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:33:31,663 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:33:38,385 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:33:39,422 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:33:40,983 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:33:41,887 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:33:55,985 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-08 21:33:56,980 autoreload Watching for file changes with StatReloader
+INFO 2025-11-08 21:34:05,519 basehttp "GET /analysis/ HTTP/1.1" 200 5779
+INFO 2025-11-08 21:34:07,811 views Home page accessed by user: AnonymousUser
+INFO 2025-11-08 21:34:07,813 basehttp "GET / HTTP/1.1" 200 5549
+WARNING 2025-11-08 21:34:24,790 views User 'AnonymousUser' tried uploading a non-CSV file: IMG_9533.jpg
+INFO 2025-11-08 21:34:24,796 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-08 21:34:24,802 basehttp "GET /upload/ HTTP/1.1" 200 5549
+WARNING 2025-11-08 21:35:02,748 views User 'AnonymousUser' tried uploading a non-CSV file: pycharm-2025.2.4.exe
+INFO 2025-11-08 21:35:02,751 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-08 21:35:02,859 basehttp "GET /upload/ HTTP/1.1" 200 5549
+INFO 2025-11-08 21:36:14,979 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-08 21:36:15,030 basehttp "GET /analysis/ HTTP/1.1" 200 6016
+INFO 2025-11-10 11:38:30,798 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:38:32,663 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 11:38:32,720 basehttp "GET / HTTP/1.1" 200 5549
+WARNING 2025-11-10 11:38:34,177 log Not Found: /favicon.ico
+WARNING 2025-11-10 11:38:34,178 basehttp "GET /favicon.ico HTTP/1.1" 404 3233
+INFO 2025-11-10 11:38:40,438 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 11:38:40,471 basehttp "GET /analysis/ HTTP/1.1" 200 6016
+INFO 2025-11-10 11:41:34,465 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:41:35,483 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:41:42,929 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:41:43,937 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:41:57,594 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:41:58,479 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:42:14,192 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:42:15,210 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:42:16,733 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:42:17,667 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:42:42,945 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:42:43,869 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:43:07,124 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:43:08,101 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:43:11,430 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:43:12,597 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:43:14,181 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:43:16,204 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:44:07,015 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:44:07,965 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:44:13,560 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:44:14,488 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:46:45,861 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:46:46,890 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:46:52,636 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:46:53,609 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:47:01,255 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:47:02,173 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:47:31,476 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 11:47:32,617 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:48:46,594 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 11:48:47,553 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:48:58,277 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:48:59,203 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:49:07,875 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:49:08,875 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:49:11,158 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:49:12,148 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:49:43,406 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:49:44,387 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:49:54,174 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:49:55,147 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:51:07,042 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:51:07,968 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:51:38,562 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 11:51:39,755 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:52:39,230 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:52:40,256 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:52:45,931 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:52:46,919 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:52:51,540 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:52:52,537 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:52:55,089 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:52:56,039 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:53:00,643 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:53:01,747 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:57:38,792 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 11:57:39,988 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 11:57:40,836 views Analysis page opened by user : AnonymousUser
+ERROR 2025-11-10 11:57:40,923 log Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py", line 59, in analysis
+    return render(request,"analysis.html")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: analysis.html
+ERROR 2025-11-10 11:57:40,929 basehttp "GET /analysis/ HTTP/1.1" 500 84922
+INFO 2025-11-10 11:57:42,482 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 11:57:42,506 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 11:57:44,447 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 11:57:44,465 basehttp "GET /fileInfo/ HTTP/1.1" 200 6252
+INFO 2025-11-10 11:58:31,025 basehttp "GET /fileInfo/ HTTP/1.1" 200 6248
+INFO 2025-11-10 11:58:37,274 basehttp "GET /fileInfo/ HTTP/1.1" 200 6247
+INFO 2025-11-10 11:59:46,033 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 11:59:47,450 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 11:59:47,456 basehttp "GET /analysis/ HTTP/1.1" 200 219
+INFO 2025-11-10 12:01:17,939 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 12:01:18,064 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 12:01:23,177 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:01:23,184 basehttp "GET / HTTP/1.1" 200 5549
+WARNING 2025-11-10 12:01:30,820 views User 'AnonymousUser' tried uploading a non-CSV file: requirements.txt
+INFO 2025-11-10 12:01:30,822 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 12:01:30,827 basehttp "GET /upload/ HTTP/1.1" 200 5549
+INFO 2025-11-10 12:01:43,488 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 12:01:43,504 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 12:02:18,288 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 12:02:18,294 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 12:02:20,975 basehttp "GET /upload/ HTTP/1.1" 200 5549
+WARNING 2025-11-10 12:02:29,679 views User 'AnonymousUser' tried uploading a non-CSV file: shopping_behaviour.ipynb
+INFO 2025-11-10 12:02:29,681 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 12:02:29,689 basehttp "GET /upload/ HTTP/1.1" 200 5549
+INFO 2025-11-10 12:02:48,730 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 12:02:48,752 basehttp "GET /fileInfo/ HTTP/1.1" 200 6165
+INFO 2025-11-10 12:02:49,930 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 12:02:49,939 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 12:10:17,074 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:10:17,080 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 12:10:21,048 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:10:21,054 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 12:10:29,716 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 12:10:29,732 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 12:10:37,171 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 12:10:37,178 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 12:11:30,596 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:11:30,602 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 12:35:13,699 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:35:15,892 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:36:09,297 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:36:11,021 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:36:26,076 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:36:28,111 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:39:04,066 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:39:05,750 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:39:51,559 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:39:53,244 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-10 12:44:29,718 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type InMemoryUploadedFile is not JSON serializable
+ERROR 2025-11-10 12:44:29,726 basehttp "POST /upload/ HTTP/1.1" 500 117793
+ERROR 2025-11-10 12:46:16,682 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type InMemoryUploadedFile is not JSON serializable
+ERROR 2025-11-10 12:46:16,684 basehttp "POST /upload/ HTTP/1.1" 500 117792
+INFO 2025-11-10 12:50:42,454 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:50:43,188 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:50:44,565 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:50:45,219 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:50:53,821 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:50:54,470 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:51:06,109 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:51:06,798 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:51:10,251 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:51:10,946 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:51:20,564 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:51:21,300 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:51:25,797 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:51:26,472 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:51:27,852 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:51:28,535 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:51:39,186 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:51:39,992 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:51:59,981 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:52:00,784 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:52:45,349 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:52:46,044 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:52:48,465 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:52:49,502 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:52:51,122 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 12:52:51,173 basehttp "GET /fileInfo/ HTTP/1.1" 200 6165
+INFO 2025-11-10 12:53:00,103 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:53:00,108 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 12:53:06,794 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 12:53:06,823 basehttp "GET /fileInfo/ HTTP/1.1" 200 6165
+INFO 2025-11-10 12:53:13,366 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:53:13,372 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 12:53:21,918 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 12:53:21,947 basehttp "GET /fileInfo/ HTTP/1.1" 200 6161
+INFO 2025-11-10 12:53:48,959 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:53:49,672 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:53:58,321 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:53:58,989 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:54:11,685 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:54:12,353 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:54:24,066 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:54:24,852 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:54:32,448 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:54:33,122 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:54:35,084 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 12:54:35,120 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 12:54:40,082 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:54:40,093 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 12:54:41,773 basehttp "POST /upload/ HTTP/1.1" 302 0
+ERROR 2025-11-10 12:54:41,825 log Internal Server Error: /fileInfo/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py", line 48, in fileInfo
+    uploaded_file = request.Files.get('file')
+AttributeError: 'WSGIRequest' object has no attribute 'Files'
+ERROR 2025-11-10 12:54:41,826 basehttp "GET /fileInfo/ HTTP/1.1" 500 70864
+INFO 2025-11-10 12:54:55,732 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:54:56,448 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:55:16,401 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:55:17,104 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:55:30,853 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:55:31,541 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:56:04,869 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:56:05,803 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:56:07,514 basehttp "GET /fileInfo/ HTTP/1.1" 200 6161
+INFO 2025-11-10 12:56:18,916 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:56:19,597 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:56:29,297 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:56:30,217 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:56:33,576 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:56:34,294 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:56:35,515 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:56:36,240 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:56:38,574 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 12:56:38,611 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 12:56:40,872 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:56:40,880 basehttp "GET / HTTP/1.1" 200 5549
+ERROR 2025-11-10 12:56:42,394 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type InMemoryUploadedFile is not JSON serializable
+ERROR 2025-11-10 12:56:42,400 basehttp "POST /upload/ HTTP/1.1" 500 117312
+INFO 2025-11-10 12:57:09,055 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:57:09,826 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:57:17,181 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:57:17,962 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:57:24,299 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:57:25,068 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:57:29,348 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:57:30,085 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:57:34,389 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:57:35,104 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:57:54,876 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:57:56,113 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-10 12:59:06,665 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type InMemoryUploadedFile is not JSON serializable
+ERROR 2025-11-10 12:59:06,676 basehttp "POST /upload/ HTTP/1.1" 500 117312
+INFO 2025-11-10 12:59:13,570 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:59:14,357 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:59:24,357 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 12:59:24,379 basehttp "GET / HTTP/1.1" 200 5549
+ERROR 2025-11-10 12:59:31,222 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TemporaryUploadedFile is not JSON serializable
+ERROR 2025-11-10 12:59:31,227 basehttp "POST /upload/ HTTP/1.1" 500 117133
+INFO 2025-11-10 12:59:40,971 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:59:41,830 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 12:59:45,329 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 12:59:46,023 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:00:03,927 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:00:04,767 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:00:06,169 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:00:06,921 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-10 13:53:34,376 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TemporaryUploadedFile is not JSON serializable
+ERROR 2025-11-10 13:53:34,383 basehttp "POST /upload/ HTTP/1.1" 500 117133
+INFO 2025-11-10 13:54:41,072 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:54:42,018 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:54:43,412 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:54:44,140 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:54:50,679 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:54:51,557 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-10 13:54:53,674 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TemporaryUploadedFile is not JSON serializable
+ERROR 2025-11-10 13:54:53,680 basehttp "POST /upload/ HTTP/1.1" 500 117133
+INFO 2025-11-10 13:56:16,644 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:56:17,721 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-10 13:56:19,320 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TemporaryUploadedFile is not JSON serializable
+ERROR 2025-11-10 13:56:19,344 basehttp "POST /upload/ HTTP/1.1" 500 117133
+ERROR 2025-11-10 13:56:22,879 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TemporaryUploadedFile is not JSON serializable
+ERROR 2025-11-10 13:56:22,880 basehttp "POST /upload/ HTTP/1.1" 500 117133
+INFO 2025-11-10 13:56:38,056 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:56:38,977 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:56:42,115 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 13:56:42,147 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 13:56:48,955 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:56:49,794 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:56:51,214 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:56:52,097 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:56:54,537 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:56:55,274 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:56:59,484 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 13:57:00,892 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 13:57:00,904 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 13:57:13,412 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:57:14,231 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:57:19,848 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:57:20,588 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:57:22,880 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:57:23,566 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:57:24,956 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:57:25,975 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:57:27,666 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 13:57:27,685 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 13:57:45,495 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 13:57:45,503 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 13:57:48,195 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 13:57:48,414 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 13:57:50,078 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 13:57:50,226 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 13:58:35,923 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:58:36,659 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:58:38,076 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:58:39,042 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:58:40,578 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 13:58:40,756 basehttp "GET / HTTP/1.1" 200 5549
+ERROR 2025-11-10 13:58:43,096 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 123, in save
+    obj = self.create_model_instance(data)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\db.py", line 102, in create_model_instance
+    session_data=self.encode(data),
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\contrib\sessions\backends\base.py", line 124, in encode
+    return signing.dumps(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 150, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 225, in sign_object
+    data = serializer().dumps(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\signing.py", line 125, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TemporaryUploadedFile is not JSON serializable
+ERROR 2025-11-10 13:58:43,103 basehttp "POST /upload/ HTTP/1.1" 500 117139
+INFO 2025-11-10 13:59:07,047 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:59:07,828 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:59:37,123 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:59:37,861 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:59:44,194 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:59:45,040 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:59:50,490 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:59:51,334 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:59:52,687 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 13:59:53,408 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:59:59,892 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:00:00,622 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:00:05,073 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:00:05,796 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:00:16,369 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:00:17,161 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:00:30,719 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:00:31,483 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:01:01,767 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:01:02,694 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:01:47,475 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:01:48,201 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:01:57,620 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:01:58,354 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:02:00,744 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:02:01,451 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:02:22,307 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:02:23,125 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:02:24,381 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:02:25,127 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:02:30,465 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:02:31,410 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:02:36,701 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:02:37,406 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:02:49,176 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:02:50,192 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:02:58,770 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:02:59,465 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:03:04,905 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:03:05,677 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:03:11,275 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:03:11,970 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:03:22,548 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:03:23,354 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:03:58,784 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\urls.py changed, reloading.
+INFO 2025-11-10 14:03:59,545 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:04:04,995 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 14:04:05,195 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 14:04:07,690 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 14:04:07,949 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 14:17:47,890 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 14:17:48,144 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 14:17:50,978 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:17:51,157 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 14:19:29,124 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:19:30,020 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:19:36,591 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:19:37,368 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:19:50,120 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:19:50,819 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:20:36,506 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:20:37,235 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:20:48,932 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:20:49,639 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:20:58,276 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:20:58,974 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:21:06,573 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:21:07,379 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:21:17,994 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:21:18,726 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:21:20,166 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:21:20,908 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:21:22,469 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:21:22,721 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 14:21:28,383 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:21:28,539 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 14:22:12,229 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:22:12,382 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 14:22:16,232 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:22:16,389 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 14:22:36,318 views Home page accessed by user: AnonymousUser
+INFO 2025-11-10 14:22:36,468 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-10 14:22:39,550 basehttp "POST /upload/ HTTP/1.1" 302 0
+INFO 2025-11-10 14:22:39,691 basehttp "GET /fileInfo/ HTTP/1.1" 200 6151
+INFO 2025-11-10 14:22:41,077 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:22:41,211 basehttp "GET /analysis/ HTTP/1.1" 200 6620
+INFO 2025-11-10 14:23:34,846 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:23:35,610 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:24:29,536 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:24:30,230 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:24:42,680 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:24:43,443 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:24:45,663 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:24:45,826 basehttp "GET /analysis/ HTTP/1.1" 200 6822
+INFO 2025-11-10 14:24:58,411 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:24:58,567 basehttp "GET /analysis/ HTTP/1.1" 200 6822
+INFO 2025-11-10 14:25:00,827 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:25:00,978 basehttp "GET /analysis/ HTTP/1.1" 200 6822
+INFO 2025-11-10 14:29:56,176 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:29:56,917 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:29:59,355 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:30:00,089 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:31:17,539 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:31:18,231 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:39:37,594 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:39:38,345 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:39:42,859 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:39:43,589 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:39:51,245 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:39:51,933 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:40:06,409 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:40:07,123 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:40:14,730 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:40:15,506 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:40:21,032 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:40:21,721 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:40:27,220 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:40:27,972 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:40:32,436 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:40:33,155 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:40:58,305 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:40:59,063 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:41:04,590 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:41:05,408 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:41:09,910 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:41:10,722 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:41:24,275 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:41:24,988 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:41:42,872 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:41:43,692 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:42:03,803 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:42:05,354 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:42:14,806 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 14:42:15,510 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:54:56,079 views Analysis page opened by user : AnonymousUser
+INFO 2025-11-10 14:54:56,268 basehttp "GET /analysis/ HTTP/1.1" 200 6822
+INFO 2025-11-10 15:13:03,456 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\models.py changed, reloading.
+INFO 2025-11-10 15:13:04,339 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:13:06,766 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\models.py changed, reloading.
+INFO 2025-11-10 15:13:07,483 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:13:17,088 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\models.py changed, reloading.
+INFO 2025-11-10 15:13:17,691 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:14:02,267 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\models.py changed, reloading.
+INFO 2025-11-10 15:14:02,982 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:14:10,587 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\models.py changed, reloading.
+INFO 2025-11-10 15:14:11,229 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:14:14,552 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\models.py changed, reloading.
+INFO 2025-11-10 15:14:15,284 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:22:13,522 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\models.py changed, reloading.
+INFO 2025-11-10 15:22:14,401 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:23:08,483 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:23:09,255 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:23:24,212 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:23:24,998 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:23:44,925 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:23:45,772 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:23:57,291 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:23:58,101 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:24:01,411 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:24:02,144 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:24:13,598 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:24:14,416 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:24:17,854 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:24:19,251 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:25:03,802 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:25:04,548 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:25:17,082 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:25:17,782 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:25:32,343 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:25:33,248 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:25:42,693 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:25:43,404 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:26:07,458 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:26:08,242 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:26:16,861 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:26:17,597 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:26:24,306 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:26:24,979 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:26:45,928 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:26:46,703 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:27:15,951 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:27:16,772 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:27:21,465 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:27:22,400 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:27:37,246 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:27:38,215 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:27:42,525 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:27:43,255 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:27:53,964 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:27:54,787 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:28:01,414 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:28:02,412 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:28:15,219 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:28:15,997 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:28:24,733 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:28:25,471 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:28:35,123 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:28:36,079 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:28:47,665 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:28:48,483 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:28:51,051 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:28:52,048 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:29:00,779 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:29:01,901 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:29:06,495 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:29:07,796 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:29:11,115 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:29:12,082 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:29:18,861 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:29:21,118 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:29:28,706 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:29:30,808 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:29:35,334 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:29:36,262 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:29:56,975 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:29:58,023 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:30:03,576 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:30:04,312 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:30:07,744 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:30:08,557 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:30:30,821 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:30:31,602 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:30:53,502 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:30:54,226 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:30:56,453 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:30:57,139 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:31:01,425 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:31:02,138 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:31:07,593 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:31:08,424 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:31:20,065 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:31:20,795 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:31:33,311 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:31:34,004 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:31:38,458 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:31:39,149 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:31:43,601 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:31:44,566 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:32:23,064 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:32:24,201 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:33:26,390 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:33:27,106 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:33:38,776 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:33:39,570 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:33:42,021 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:33:42,813 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:33:51,376 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:33:52,197 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:38:41,159 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:38:42,104 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:39:18,796 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:39:19,782 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:39:33,293 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:39:34,040 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:39:41,093 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:39:42,062 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:39:44,007 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:39:44,910 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:40:00,635 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-10 15:40:02,054 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 15:41:08,090 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_model\settings.py changed, reloading.

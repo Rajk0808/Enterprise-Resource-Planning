@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% block title %}Interactive Analysis{% endblock %}
+
+{% block content %}
+<h1 style="text-align:center; color:var(--accent); margin-bottom:20px;">
+    📊 Interactive Data Analysis
+</h1>
+
+{% if messages %}
+  <ul style="list-style:none; padding:0;">
+    {% for message in messages %}
+      <li style="background:#111820; padding:10px; border-left:4px solid var(--accent); margin-bottom:8px;">
+        {{ message }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<!-- STEP 3: Transform -->
+{% if step == 'transform' %}
+  <h2>🧩 Data Transformation</h2>
+  <form method="POST">
+    {% csrf_token %}
+    <label for="column">Select Column:</label>
+    <select name="column" required>
+      <option value="">-- Select Column --</option>
+      {% for col in columns %}
+        <option value="{{ col }}">{{ col }}</option>
+      {% endfor %}
+    </select>
+
+    <label for="action">Select Action:</label>
+    <select name="action" required>
+      <option value="">-- Choose Transformation --</option>
+      <option value="missing">Handle Missing Values</option>
+      <option value="duplicate">Remove Duplicates</option>
+      <option value="outlier">Fix Outliers</option>
+      <option value="inconsistency">Fix Inconsistencies</option>
+    </select>
+
+    <button type="submit">Apply</button>
+  </form>
+
+<!-- STEP 4: Analysis -->
+{% elif step == 'analysis' %}
+  <h2>📈 Choose Analysis Type</h2>
+  <form method="POST">
+    {% csrf_token %}
+    <label>Select Analysis Type:</label>
+    <select name="type" required>
+      <option value="">-- Select Type --</option>
+      <option value="univariate">Univariate Analysis</option>
+      <option value="bivariate">Bivariate Analysis</option>
+      <option value="multivariate">Multivariate Analysis</option>
+    </select>
+
+    <label>Select Columns (Ctrl+Click for multiple):</label>
+    <select name="columns" multiple size="8" required>
+      {% for col in columns %}
+        <option value="{{ col }}">{{ col }}</option>
+      {% endfor %}
+    </select>
+
+    <button type="submit">Generate Analysis</button>
+  </form>
+
+<!-- STEP 5: Done -->
+{% elif step == 'done' %}
+  <h2>✅ Analysis Completed</h2>
+
+  {% if summary %}
+    <h3>📋 Summary:</h3>
+    <pre>{{ summary|safe }}</pre>
+  {% endif %}
+
+  {% if plot_html %}
+    <h3>📊 Visualization:</h3>
+    <div>{{ plot_html|safe }}</div>
+  {% endif %}
+
+  <form method="POST" style="margin-top:20px;">
+    {% csrf_token %}
+    <button type="submit" name="restart">🔄 Restart Analysis</button>
+  </form>
+{% elif step == 'overview' or not step %}
+  <h2>📊 Dataset Overview</h2>
+
+  <div style="background:#111820; padding:20px; border-radius:8px; margin-bottom:20px;">
+    <p><strong>Shape:</strong> {{ df_shape.0 }} rows × {{ df_shape.1 }} columns</p>
+
+    <h3>🧱 Column Data Types</h3>
+    <table border="1" style="width:100%; border-collapse:collapse; color:white;">
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+      </tr>
+      {% for col, dtype in df_dtypes.items %}
+      <tr>
+        <td>{{ col }}</td>
+        <td>{{ dtype }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <h3>📈 Summary Statistics</h3>
+    <div style="overflow-x:auto; color:white;">
+      {{ df_summary|safe }}
+    </div>
+  </div>
+
+  <form method="POST">
+    {% csrf_token %}
+    <p style="margin-top:20px;">What would you like to do next?</p>
+    <select name="next_step" required>
+      <option value="">-- Select Option --</option>
+      <option value="transform_choice">🧩 Data Transformation</option>
+      <option value="analysis">📊 Perform Analysis</option>
+    </select>
+    <button type="submit">Continue →</button>
+  </form>
+
+{% else %}
+  <p>⚠️ Invalid state. Please restart.</p>
+{% endif %}
+
+{% endblock %}

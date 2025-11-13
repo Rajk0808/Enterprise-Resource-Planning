@@ -1,0 +1,36 @@
+INFO 2025-11-06 15:32:26,036 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:32:41,116 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-06 15:32:41,903 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:32:52,722 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-06 15:32:53,723 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:32:57,110 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-06 15:32:58,012 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:33:05,473 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-06 15:33:06,470 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:33:07,723 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-06 15:33:08,663 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:33:19,196 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-06 15:33:20,044 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:34:56,820 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-06 15:34:57,777 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:35:13,848 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py changed, reloading.
+INFO 2025-11-06 15:35:14,741 autoreload Watching for file changes with StatReloader
+INFO 2025-11-06 15:36:46,755 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-06 15:36:49,534 basehttp "GET / HTTP/1.1" 200 5549
+INFO 2025-11-06 15:36:50,462 basehttp "GET /upload/ HTTP/1.1" 200 5549
+INFO 2025-11-06 15:36:52,096 basehttp "GET /analysis/ HTTP/1.1" 200 5321
+INFO 2025-11-06 15:36:53,158 basehttp "GET /upload/ HTTP/1.1" 200 5549
+INFO 2025-11-06 15:36:54,247 basehttp "GET /analysis/ HTTP/1.1" 200 5321
+INFO 2025-11-06 15:36:56,294 basehttp "GET /upload/ HTTP/1.1" 200 5549
+INFO 2025-11-06 15:36:57,686 basehttp "GET / HTTP/1.1" 200 5549
+ERROR 2025-11-06 15:37:06,278 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kushw\Anaconda3\envs\erpenv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Codex Future Internship\ERP - Project\erp_model\erp_app\views.py", line 23, in upload_file
+    with open(f"uploads/{uploaded_file.name}", "wb+") as destination:
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads/Kidney-Disease-Classification-Deep-Learning-Project-main.zip'
+ERROR 2025-11-06 15:37:06,280 basehttp "POST /upload/ HTTP/1.1" 500 71620
+INFO 2025-11-06 15:39:56,732 autoreload C:\Codex Future Internship\ERP - Project\erp_model\erp_model\settings.py changed, reloading.
